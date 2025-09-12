@@ -13,7 +13,7 @@ function ExpenseItem(props){
             <ExpenseDate date={props.date}/>
             <div className='expense-item__description'>
                 <h2>{title}</h2>
-                <div className='expense-item__price'>${props.price}</div>
+                <div className='expense-item__price'>${props.amount}</div>
                 <h2>Location</h2>
                 <div className='expense-item__location'>{props.location}</div>
                 <button onClick={buttonClickHandler}>Change Title</button>

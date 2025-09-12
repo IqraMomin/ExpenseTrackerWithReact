@@ -11,7 +11,7 @@ function Expenses(props) {
                         key={expense.id}
                         title={expense.title}
                         date={expense.date}
-                        price={expense.price}
+                        amount={expense.amount}
                         location={expense.location}
                     />
                 )
